@@ -77,3 +77,41 @@ const opiskelija = {
 }
 
 console.log(opiskelija.etunimi);
+
+const laksyt = [
+{
+  id: 1,
+  tehtava: 'Ohjelmointi, HTML',
+  tehty: true
+},
+{
+  id: 2,
+  tehtava: 'Ohjelmointi, CSS',
+  tehty: true
+},
+{
+  id: 3,
+  tehtava: 'Ohjelmointi, JavaScript',
+  tehty: false
+}
+];
+
+for(let i=0; i <=10; i++){
+console.log(`For loopin iteraatioluku on: ${i}`);
+}
+
+let i = 0;
+while(i<=10){
+  console.log(`While iteraatioluku on: ${i}`);
+  i++;
+}
+
+for(let i=0; i<laksyt.length; i++){
+  console.log(laksyt[i].tehtava);
+}
+
+const laksyTehtava = laksyt.map(function(laksy){
+  return laksy.tehtava;
+});
+
+console.log(laksyTehtava);

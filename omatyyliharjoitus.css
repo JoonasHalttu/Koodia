@@ -8,6 +8,11 @@ body{
  margin:95px;
 }
 
+.yhteys{
+  padding:10px;
+  width:100%;
+  margin:auto;
+}
 .listat{
   padding:10px 15px;
   width:70%;
@@ -21,6 +26,9 @@ body{
   width:100%;
   margin:auto;
 }
+
+
+
   .napit{
   color:white;
   background-color:black;

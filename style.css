@@ -86,6 +86,12 @@ a:active{
   background-color:royalblue;
   color:white;
 }
+.nimi input[type="text"], .nimi textare{
+  padding:10px;
+  width:100%;
+  margin:auto;
+  }
+  
 .Laatikko{
   float:left;
   width:33.3%;

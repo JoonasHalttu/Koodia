@@ -27,8 +27,9 @@ body{
   margin:auto;
 }
 
-
-
+.otayhteytta h1 {
+  margin:auto;
+}
   .napit{
   color:white;
   background-color:black;

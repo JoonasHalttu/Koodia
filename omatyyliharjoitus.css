@@ -24,15 +24,18 @@ body{
 .nimi input[type="text"], .nimi textare{
   padding:10px;
   width:100%;
-  margin:auto;
+ 
 }
-
 .otayhteytta h1 {
-  margin:auto;
+  margin:105px;
+  padding:0%;
+  font-family:tahoma;
+  text-transform:uppercase;
+  
 }
   .napit{
   color:white;
-  background-color:black;
+  background-color:rgb(0, 0, 0);
   padding:10px;
  border:none;
   }
@@ -53,5 +56,4 @@ body{
   top:100px;
   left:0px;
 }
- 
 

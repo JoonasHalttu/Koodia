@@ -16,9 +16,15 @@ var nimet = ["Mika, + '' + Santeri, + '' + Joonas"]
 
 console.log("Mika, Santeri, Joonas")
 
-const perhe = {
+
+const perheenjäsenet = {
   id: 1,
   etunimi: 'Joonas',
-  syntymävuosi: 2004,
+  ika : 16,
+  
   }
 
+  console.log(perheenjäsenet.id, etunimi, ika);
+
+  
+ 

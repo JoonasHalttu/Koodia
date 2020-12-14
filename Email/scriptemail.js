@@ -22,8 +22,7 @@ xhr:onreadystatechange = function(){
 };
 var data = JSON.stringify({
   "EmailMsg": "Tähän tulee postin sisältö", //Kirjoittaa sisällön
-  "EmailAddress": "Joonas.halttu@edu.salpaus.fi", //viestin kirjoittajan sähköposti
-  "EmailTo": "Joonashalttu@gmail.com", //oma sähköpistisi!!!!!
+  "EmailTo": "Joonas.halttu", //oma sähköpistisi!!!!!
   "EmailName": "Teppo Tyyppi" //Nimi-kentän sisältö
 });
 xhr.send(data);

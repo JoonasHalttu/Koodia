@@ -57,3 +57,20 @@ body{
   left:0px;
 }
 
+.listat{
+  width:70%;
+  padding:10px;
+  margin:auto;
+  background-color:blue;
+  color:white;
+  border:1px double black;
+  border-radius:20px;
+
+}
+.listat label{
+  display:block;
+}
+.yhteydes{
+  width:70%;
+  margin:auto;
+}

@@ -1,0 +1,40 @@
+body {
+ background-image: url("sunset.jpg");
+ background-color: #cccccc;
+}
+.otsikko{
+  width:70%;
+  margin:auto;
+  background-color:aliceblue;
+  color:blue;
+  border:1px dotted black;
+}
+
+.opinnot{
+  width:70%;
+  margin:auto;
+  background-color:darkred;
+  color:white;
+  border:1px solid black;
+}
+.taidot{
+  width:70%;
+  margin:auto;
+  background-color:darkorange;
+  color:black;
+  border:1px dotted black;
+}
+.kiinnostus{
+  width:70%;
+  margin:auto;
+  background-color:red;
+  color:white;
+  border:1px double black;
+}
+.yhteys{
+  width:70%;
+  margin:auto;
+  background-color:black;
+  color:blanchedalmond;
+  border:1px solid black;
+}

@@ -163,9 +163,9 @@ header{
   .merkinta:hover{
   background:rgb(255, 4, 4);
 }
-.lomake-alue{
-  padding:10px 15px;
+.lomake{
   width:70%;
+  padding:10px;
   margin:auto;
 }
 .virhe{
@@ -175,3 +175,6 @@ header{
   margin:10px;
 }
 
+.lomake label{
+  display:block;
+}

@@ -4,7 +4,7 @@
       Lähetä Viesti
     </title>
   
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
     <header>
@@ -12,7 +12,7 @@
         lähetä viesti 
       </h1>
     </header>
-    <div class="lomake-alue">
+    <div class="lomake">
       <form id="opiskelija-lomake">
         <div>
           <label>Nimi: </label>
@@ -24,11 +24,11 @@
         </div>
         <div>
           <label>Viesti: </label>
-          <textarea></textarea>
+          <textarea id="viesti"></textarea>
         </div>
-        <input type="submit" class="lahtenappi" value="Läheta"
+        <input type="submit" class="lahetanappi" value="Läheta"
         </form>
         </div>
-        <script scr="scriptemail.js"></script>
+        <script src="scriptemail.js"></script>
   </body>
 </html>

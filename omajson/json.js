@@ -25,6 +25,10 @@ getJSOM('https://api.apify.com/v2/key-value-stores/jEFt5tgCTMfjJpLD3/records/LAT
   if (err !=null) {
       console.error(err);
   }else{
+      document.body.innerHTML=`<h1>Koronaviruksen tilanne Suomessa tänään</h1>Tartunnan saaneet: ${data.infected} <br> Testatut: ${data.tested} <br> Kuolemat: ${data.deaths}<br> Maa: ${data.country}  <br> Viimeisin päivitys: ${data.lastUpdatedAtApify}`;
+      
+      
+      
       console.log(`${data.infected}`);
       console.log(`${data.tested}`);
       console.log(`${data.deaths}`);

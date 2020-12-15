@@ -38,3 +38,25 @@ body {
   color:blanchedalmond;
   border:1px solid black;
 }
+.nappulas{
+  color:white;
+  background-color:rgb(0, 0, 0);
+  padding:10px;
+ border:none;
+  }
+  .nappulas:hover{
+  background-color:rgb(255, 0, 0);
+  color:white;
+  }
+.nappulas{
+  float:left;
+  width:10%;
+  border:2px solid black;
+  padding:10px;
+  box-sizing: border-box;
+
+}
+.nappulas{
+  position:fixed;
+  top:100px;
+  left:0px;
